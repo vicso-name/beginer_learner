@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Beginer</string>
+
+
+    <string name="letter_a">A</string>
+    <string name="letter_b">B</string>
+    <string name="letter_d">D</string>
+
+
+    <string name="about_a">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis tristique elit vel aliquet eleifend. </string>
+    <string name="about_b">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis tristique elit vel aliquet eleifend. </string>
+    <string name="about_d">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis tristique elit vel aliquet eleifend. </string>
+
+
+    <string name="sample_a">Apple</string>
+    <string name="sample_b">Bed</string>
+    <string name="sample_d">Dad</string>
+
+
+</resources>

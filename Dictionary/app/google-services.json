@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "980037624376",
+    "project_id": "hebrew-alphabet-df439",
+    "storage_bucket": "hebrew-alphabet-df439.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:980037624376:android:ff07a2600745bc4bc93ccd",
+        "android_client_info": {
+          "package_name": "com.vicsothemes.recyclerview"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "980037624376-iun73dkvrm6id5uibj7nnjd6lcgl47lj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBEpN0CTU4_RKXhRY4Sqjzf4O3owToEekU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "980037624376-iun73dkvrm6id5uibj7nnjd6lcgl47lj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
