@@ -30,6 +30,8 @@ class DetailViewPagerAdapter(
         private val title: TextView = itemView.findViewById(R.id.title_detail_text_view)
         private val sample_detail: TextView = itemView.findViewById(R.id.sample_detail)
         private val description: TextView = itemView.findViewById(R.id.letter_description)
+        private val playButton: ImageButton = itemView.findViewById(R.id.playButton)
+
 
         fun bind(
             leter: Letters
@@ -39,6 +41,12 @@ class DetailViewPagerAdapter(
             sample_detail.text = leter.sample
             description.text = leter.description
             toolbar.title = leter.title
+            playButton.setOnClickListener{
+                var mp = MediaPlayer()
+                mp.setAudioStreamType(leter.sound)
+                mp.prepare()
+                mp.start()
+            }
         }
     }
 
